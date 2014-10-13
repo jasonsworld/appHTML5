@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+body,header,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+    margin:0;
+    padding:0;
+}
+body {
+    font-size: 12px;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img {
+    border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym {
+    border:0;
+}
+a {
+    text-decoration: none;
+    color: #666666;
+}
+input, select, textarea {
+    outline: none;
+    border: none;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+/* 清除浮动 */
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/* 清除IE6下的浮动 触发asLayout*/
+.clearfix {
+    zoom: 1;
+}

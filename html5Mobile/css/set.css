@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+/* settings */
+.set_content {
+    margin-left: 2vw;
+    margin-top: 2vw;
+    width: 96vw;
+    border: 1px solid #9BE8F2;
+    border-radius:5px;
+    -moz-border-radius: 5px;      /* Gecko browsers */
+    -webkit-border-radius: 5px;   /* Webkit browsers */
+}
+.set_content li {
+    height: 10vh;
+    line-height: 10vh;
+    padding-left: 10px;
+    color: #F3FCFB;
+    font-size: 3vh;
+    background: #9BE8F2 url("../img/right.png")  90vw center no-repeat;
+    background-size: auto 3vh;
+    border-bottom: 1px solid #C2F1F7;
+}
+.set_content li:last-child {
+    border: none;
+}
