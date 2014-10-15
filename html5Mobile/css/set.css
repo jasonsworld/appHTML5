@@ -1,25 +1,79 @@
 @charset "utf-8";
 /* CSS Document */
-/* settings */
+/* index */
+section #index_map{
+    width: 100%;
+    height: 100%;
+    z-index: 9000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background:white;
+    filter:alpha(opacity:30);
+    opacity:0.3;
+}
+section aside#index_side {
+    width: 75%;
+    height: 100%;
+    z-index: 9999;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #EFF7FA;
+    -webkit-box-shadow: #E1E3E2 5px 1px 5px;
+    -moz-box-shadow: #E1E3E2 5px 1px 5px;
+    box-shadow: #E1E3E2 5px 1px 5px;
+}
+
+section aside#index_side a {
+    color: #24B2E2;
+}
+
+section aside div.index_side_set {
+    height: 5rem;
+    font-size: 2.5em;
+    border-bottom: 1px solid #32B6DC;
+    line-height: 6.5rem;
+    padding-left: 6rem;
+    background: url("../img/index_right.png") 95% 2.2rem no-repeat;
+    background-size: auto 2rem;
+}
+
+section aside #index_add {
+    height: 1.5rem;
+    position: absolute;
+    display: block;
+    top: 2.5rem;
+    left: 2rem;
+}
+/* lectures */
+section article.lectures_art {
+    width: 100%;
+    height: 20%;
+    border-bottom: 1px solid #32B6DC;
+}
+/* set*/
 .set_content {
-    margin-left: 2vw;
-    margin-top: 2vw;
-    width: 96vw;
+    margin-left: 3%;
+    margin-top: 1rem;
+    width: 94%;
     border: 1px solid #9BE8F2;
     border-radius:5px;
     -moz-border-radius: 5px;      /* Gecko browsers */
     -webkit-border-radius: 5px;   /* Webkit browsers */
 }
 .set_content li {
-    height: 10vh;
-    line-height: 10vh;
+    height: 4rem;
+    line-height: 4rem;
     padding-left: 10px;
     color: #F3FCFB;
-    font-size: 3vh;
-    background: #9BE8F2 url("../img/right.png")  90vw center no-repeat;
-    background-size: auto 3vh;
+    font-size: 1.5rem;
+    background: url("../img/set_right.png")  96% center no-repeat;
+    background-color: #9BE8F2;/*此处与background分开来些是由于安卓手机下浏览器不支持*/
+    background-size: auto 1.5rem;
     border-bottom: 1px solid #C2F1F7;
 }
 .set_content li:last-child {
     border: none;
 }
+
